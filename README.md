@@ -29,32 +29,12 @@
 
 ### 📌 Selected work
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/ozerodb/aml-pointcloud-recon-pletion"><b>aml-pointcloud-recon-pletion</b></a><br>
-      <sub>Unsupervised point cloud reconstruction and completion</sub><br>
-      <sub>🐍 Python · ⭐ 4</sub>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/ozerodb/sdp-parallel-graph-coloring"><b>sdp-parallel-graph-coloring</b></a><br>
-      <sub>Comparing parallel graph coloring algorithms</sub><br>
-      <sub>⚙️ C</sub>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/ozerodb/interactive-hsv-picker"><b>interactive-hsv-picker</b></a><br>
-      <sub>Interactively find the best values for your HSV filter</sub><br>
-      <sub>🐍 Python</sub>
-    </td>
-    <td>
-      <a href="https://github.com/ozerodb/pizero2-stack"><b>pizero2-stack</b></a><br>
-      <sub>Reproducible DietPi provisioning for Raspberry Pi Zero 2</sub><br>
-      <sub>🐍 Python</sub>
-    </td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/ozerodb/aml-pointcloud-recon-pletion"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=ozerodb&repo=aml-pointcloud-recon-pletion&hide_border=true&theme=transparent&title_color=5EB1BF&icon_color=5EB1BF&text_color=8b949e" alt="aml-pointcloud-recon-pletion" /></a>
+  <a href="https://github.com/ozerodb/sdp-parallel-graph-coloring"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=ozerodb&repo=sdp-parallel-graph-coloring&hide_border=true&theme=transparent&title_color=5EB1BF&icon_color=5EB1BF&text_color=8b949e" alt="sdp-parallel-graph-coloring" /></a>
+  <a href="https://github.com/ozerodb/interactive-hsv-picker"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=ozerodb&repo=interactive-hsv-picker&hide_border=true&theme=transparent&title_color=5EB1BF&icon_color=5EB1BF&text_color=8b949e" alt="interactive-hsv-picker" /></a>
+  <a href="https://github.com/ozerodb/pizero2-stack"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=ozerodb&repo=pizero2-stack&hide_border=true&theme=transparent&title_color=5EB1BF&icon_color=5EB1BF&text_color=8b949e" alt="pizero2-stack" /></a>
+</p>
 
 ### 📊 Stats
 
