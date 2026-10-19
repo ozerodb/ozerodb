@@ -1,12 +1,12 @@
-"""Rewrite the PROJECTS block of README.md with the owner's most-starred repos."""
+"""Rewrite the PROJECTS block of README.md with the owner's most-starred public repos."""
 import json
 import os
 import re
 import urllib.request
 
 OWNER = os.environ.get("GITHUB_REPOSITORY_OWNER", "ozerodb")
-COUNT = 4
-EXCLUDE = {"ozerodb", "ozerodb.github.io"}  # profile repo and landing page
+COUNT = 2
+EXCLUDE = {OWNER, f"{OWNER}.github.io"}  # profile repo and landing page
 README = "README.md"
 
 CARD = (
@@ -32,7 +32,7 @@ def fetch_repos():
 def pick(repos):
     eligible = [
         r for r in repos
-        if not r["fork"] and not r["archived"] and r["name"] not in EXCLUDE
+        if not r["private"] and not r["fork"] and r["name"] not in EXCLUDE
     ]
     # Most stars first; ties broken by most recent push.
     eligible.sort(key=lambda r: (r["stargazers_count"], r["pushed_at"]), reverse=True)
