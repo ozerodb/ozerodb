@@ -27,7 +27,7 @@
   <img src="https://skillicons.dev/icons?i=py,cpp,c,rust,pytorch,opencv,ros,linux,bash,raspberrypi,godot,git&perline=12" alt="skills" />
 </p>
 
-### 📌 Selected work
+### 📌 Top repositories
 
 <!-- PROJECTS:START -->
 <p>
